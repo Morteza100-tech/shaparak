@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../model/constants.dart';
+//import '../model/constants.dart';
 import '../widget/Categories.dart';
 
 class HomePage extends StatefulWidget {

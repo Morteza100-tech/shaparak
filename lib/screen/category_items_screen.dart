@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 //import '../model/constants.dart';
-import '../provider/theme.dart';
 import '../widget/categoryItem.dart';
 import '../provider/items.dart';
 import 'package:provider/provider.dart';
@@ -63,7 +62,7 @@ class _CategoryItemsScreenState extends State<CategoryItemsScreen> {
           backgroundColor: Theme.of(context).primaryColor,
           title: Text(
             categoryTitle,
-           // style: Theme.of(context).textTheme.title,
+           style: Theme.of(context).textTheme.headline1,
           ),
           centerTitle: true,
         ),

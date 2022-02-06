@@ -52,12 +52,14 @@ class _ItemDetailScreenState extends State<ItemDetailScreen> {
         body: CustomScrollView(
           slivers: [
             SliverAppBar(
+              backgroundColor: Theme.of(context).primaryColor,
+              centerTitle: true,
               expandedHeight: MediaQuery.of(context).size.height * 0.3,
               pinned: true,
               flexibleSpace: FlexibleSpaceBar(
                 title: Text(
                   '${selectedItem.title}',
-                  //style: Theme.of(context).textTheme.title,
+                  style: Theme.of(context).textTheme.headline1,
                   textAlign: TextAlign.center,
                 ),
                 background: Hero(
@@ -74,10 +76,10 @@ class _ItemDetailScreenState extends State<ItemDetailScreen> {
                   child: Text(
                     '${selectedItem.content}',
                     //style: TextStyle(fontSize: fontSize),
-                    // style: Theme.of(context)
-                    //     .textTheme
-                    //     .body1
-                    //     .copyWith(fontSize: fontSize),
+                    style: Theme.of(context)
+                        .textTheme
+                        .bodyText1
+                        .copyWith(fontSize: fontSize),
                   ),
                 ),
               ]),

@@ -120,6 +120,7 @@ class _CategoryItemState extends State<CategoryItem> {
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 20,
+                        fontFamily: 'Lalezar',
                       ),
                       textAlign: TextAlign.right,
                     ),
@@ -136,6 +137,7 @@ class _CategoryItemState extends State<CategoryItem> {
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 10,
+                              fontFamily: 'Samim',
                             ),
                           ),
                         ],

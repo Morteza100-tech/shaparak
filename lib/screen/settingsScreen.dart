@@ -51,7 +51,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                       Icons.brightness_3,
                     ),
                     title: Text('حالت تیره',
-                        //style: Theme.of(context).textTheme.body1,
+                        style: Theme.of(context).textTheme.bodyText1,
                         ),
                     onTap: () async {
                       // SharedPreferences pref =
@@ -83,7 +83,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                     children: [
                       Container(
                         //padding: EdgeInsets.only(right: 25, top: 13),
-                        child: Text('اندازه متن'),
+                        child: Text('اندازه متن', style: Theme.of(context).textTheme.bodyText1,),
                       ),
                       Slider(
                         value: _currentSliderValue,
@@ -123,7 +123,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         //   vertical: 10,
                         //   horizontal: 12,
                         // ),
-                        child: Text('رنگ تم'),
+                        child: Text('رنگ تم', style: Theme.of(context).textTheme.bodyText1,),
                       ),
                       Container(
                         //padding: EdgeInsets.only(right: 15, left: 15, top: 5),

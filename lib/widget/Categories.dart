@@ -69,10 +69,10 @@ class Categories extends StatelessWidget {
                                 fit: BoxFit.fitWidth,
                                 child: Text(
                                   categories[index].description,
-                                  // style: Theme.of(context)
-                                  //     .textTheme
-                                  //     .subtitle
-                                  //     .copyWith(fontSize: 30),
+                                  style: Theme.of(context)
+                                      .textTheme
+                                      .subtitle1
+                                      .copyWith(fontSize: 30),
                                   textAlign: TextAlign.center,
                                 ),
                               ),
